@@ -1,5 +1,7 @@
 ﻿
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -60,7 +62,11 @@ namespace slut_projekt_quiz
         }
 
         private void RestardGame() 
-        { 
+        {
+            score = 0;
+            qNum = -1;
+            i = 0;
+            StartGame();
 
 
         }
@@ -72,7 +78,15 @@ namespace slut_projekt_quiz
 
         private void StartGame()
         {
+            var randomList = questionNumbers.OrderBy(a => Guid.NewGuid()).ToList();
 
+            questionNumbers = randomList;
+            questionOrder.Content = null;
+
+            for (int i = 0; i < questionNumbers.Count; i++ )
+            {
+                questionOrder.Content += "" + questionNumbers[i].ToString
+            }
         }
     }
 }
