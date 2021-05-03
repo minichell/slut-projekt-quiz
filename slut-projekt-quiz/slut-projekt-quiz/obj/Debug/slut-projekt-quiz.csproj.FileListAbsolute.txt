@@ -1,0 +1,5 @@
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz.csprojAssemblyReference.cache
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\MainWindow.g.cs
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\App.g.cs
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz_MarkupCompile.cache
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz_MarkupCompile.lref
