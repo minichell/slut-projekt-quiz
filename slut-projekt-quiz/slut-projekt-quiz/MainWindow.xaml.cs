@@ -73,6 +73,36 @@ namespace slut_projekt_quiz
 
         private void NextQuestion() 
         { 
+            if(qNum < questionNumbers.Count)
+            {
+                i = questionNumbers[qNum];
+            }
+            else
+            {
+                RestardGame();
+            }
+
+            foreach (var x in MyCanvas.Children.OfType<Button>())
+            {
+                x.Tag = "0";
+                x.Background = Brushes.DarkSalmon;
+            }
+
+            switch (i)
+            {
+                case 1:
+                    txtQuestions.Text = "Question 1";
+
+                    ans1.Content = "Answer 1";
+                    ans2.Content = "Answer 2 Correct";
+                    ans3.Content = "Answer 3";
+                    ans4.Content = "Answer 4";
+
+                    break;
+            }
+
+
+
 
         }
 
@@ -85,7 +115,7 @@ namespace slut_projekt_quiz
 
             for (int i = 0; i < questionNumbers.Count; i++ )
             {
-                questionOrder.Content += "" + questionNumbers[i].ToString
+                questionOrder.Content += "" + questionNumbers[i].ToString();
             }
         }
     }
