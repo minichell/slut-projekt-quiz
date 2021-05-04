@@ -8,15 +8,15 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/465838-disney_princesses-moana-vaiana.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/a02098b7e663e8b56b5fb0d1e698ed20.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/aladdin-7.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/cinderella_2015dress_438065_1920x1080.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/lion-king-3-hd-1920x1080.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/moana2.jpeg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/nedladdning.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/rapunzel.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/the-jungle-book.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/wp1875235.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/1.jpg.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/10.jpg.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/2.jpg.jpeg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/3.jpg.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/4.jpg.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/5.jpg.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/6.jpg.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/7.jpg.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/8.jpg.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/9.jpg.jpg")]
 
 

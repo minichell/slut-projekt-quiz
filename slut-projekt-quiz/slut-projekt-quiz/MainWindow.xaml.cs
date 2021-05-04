@@ -98,7 +98,139 @@ namespace slut_projekt_quiz
                     ans3.Content = "Answer 3";
                     ans4.Content = "Answer 4";
 
+                    ans2.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/1.jpg"));
+
                     break;
+
+                case 2:
+                    txtQuestions.Text = "Question 2";
+
+                    ans1.Content = "Answer 1 Correct";
+                    ans2.Content = "Answer 2";
+                    ans3.Content = "Answer 3";
+                    ans4.Content = "Answer 4";
+
+                    ans1.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/2.jpeg"));
+
+                    break;
+
+                case 3:
+                    txtQuestions.Text = "Question 3";
+
+                    ans1.Content = "Answer 1";
+                    ans2.Content = "Answer 2";
+                    ans3.Content = "Answer 3 Correct";
+                    ans4.Content = "Answer 4";
+
+                    ans3.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/3.jpg"));
+
+                    break;
+
+                case 4:
+                    txtQuestions.Text = "Question 4";
+
+                    ans1.Content = "Answer 1";
+                    ans2.Content = "Answer 2";
+                    ans3.Content = "Answer 3 ";
+                    ans4.Content = "Answer 4 Correct";
+
+                    ans4.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/4.jpg"));
+
+                    break;
+
+                case 5:
+                    txtQuestions.Text = "Question 5";
+
+                    ans1.Content = "Answer 1 Correct";
+                    ans2.Content = "Answer 2";
+                    ans3.Content = "Answer 3 ";
+                    ans4.Content = "Answer 4 ";
+
+                    ans1.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/5.jpg"));
+
+                    break;
+
+                case 6:
+                    txtQuestions.Text = "Question 6";
+
+                    ans1.Content = "Answer 1";
+                    ans2.Content = "Answer 2";
+                    ans3.Content = "Answer 3 Correct";
+                    ans4.Content = "Answer 4";
+
+                    ans3.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/6.jpg"));
+
+                    break;
+
+
+                case 7:
+                    txtQuestions.Text = "Question 7";
+
+                    ans1.Content = "Answer 1";
+                    ans2.Content = "Answer 2  Correct";
+                    ans3.Content = "Answer 3";
+                    ans4.Content = "Answer 4";
+
+                    ans2.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/7.jpg"));
+
+                    break;
+
+                case 8:
+                    txtQuestions.Text = "Question 8";
+
+                    ans1.Content = "Answer 1";
+                    ans2.Content = "Answer 2  Correct";
+                    ans3.Content = "Answer 3";
+                    ans4.Content = "Answer 4";
+
+                    ans2.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/8.jpg"));
+
+                    break;
+
+                case 9:
+                    txtQuestions.Text = "Question 9";
+
+                    ans1.Content = "Answer 1";
+                    ans2.Content = "Answer 2 ";
+                    ans3.Content = "Answer 3 Correct";
+                    ans4.Content = "Answer 4 ";
+
+                    ans3.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/9.jpg"));
+
+                    break;
+
+                case 10:
+                    txtQuestions.Text = "Question 10";
+
+                    ans1.Content = "Answer 1 Correct";
+                    ans2.Content = "Answer 2 ";
+                    ans3.Content = "Answer 3 ";
+                    ans4.Content = "Answer 4 ";
+
+                    ans1.Tag = "1";
+
+                    qImage.Source = new BitmapImage(new Uri("pack://applikation:,,,/images/10.jpg"));
+
+                    break;
+
             }
 
 
