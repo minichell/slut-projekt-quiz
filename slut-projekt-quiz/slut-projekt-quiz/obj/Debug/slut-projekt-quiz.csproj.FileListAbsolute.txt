@@ -3,3 +3,12 @@ C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-
 C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\App.g.cs
 C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz_MarkupCompile.cache
 C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz_MarkupCompile.lref
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\bin\Debug\slut-projekt-quiz.exe
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\bin\Debug\slut-projekt-quiz.pdb
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\MainWindow.baml
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz.g.resources
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut_projekt_quiz.Properties.Resources.resources
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz.csproj.GenerateResource.cache
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz.csproj.CoreCompileInputs.cache
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz.exe
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz.pdb

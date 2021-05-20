@@ -8,15 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/1.jpg.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/10.jpg.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/2.jpg.jpeg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/3.jpg.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/4.jpg.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/5.jpg.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/6.jpg.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/7.jpg.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/8.jpg.jpg")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("imgaes/9.jpg.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/7.jpeg")]
 
 

@@ -6,19 +6,19 @@
         xmlns:local="clr-namespace:slut_projekt_quiz"
         mc:Ignorable="d"
         Title="Diseny Quiz" Height="600" Width="800">
-    <Canvas Name="MyCanvas" Background="DarkGray">
+    <Canvas Name="MyCanvas" Background="White">
 
         <Label Name="scoreText" FontSize="18">score: 1/10</Label>
         <Label Name="questionOrder" FontSize="18" Canvas.Left="354">Questions</Label>
         <Image Name="qImage" Source = "images/1.jpg" Stretch="Uniform" Height="286" Width="572" Canvas.Left="102" Canvas.Top="39" />
-        <TextBlock Name="txtQuestions" TextAlignment="Center" Padding="3" FontSize="20" Width="572" TextWrapping="Wrap" Canvas.Left="116" Canvas.Top="330">
+        <TextBlock Name="txtQuestion" TextAlignment="Center" Padding="3" FontSize="20" Width="572" TextWrapping="Wrap" Canvas.Left="116" Canvas.Top="330">
             Hi welcome to this quiz
         </TextBlock>
 
-        <Button Background="DarkSalmon" FontSize="18" Click="checkAnswer" Name="ans1" Width="200" Height="50" Content="Answer 1" Tag="0" Canvas.Left="116" Canvas.Top="388"/>
-        <Button Background="DarkSalmon" FontSize="18" Click="checkAnswer" Name="ans2" Width="200" Height="50" Content="Answer 2" Tag="0" Canvas.Left="116" Canvas.Top="469"/>
-        <Button Background="DarkSalmon" FontSize="18" Click="checkAnswer" Name="ans3" Width="200" Height="50" Content="Answer 3" Tag="0" Canvas.Left="453" Canvas.Top="388"/>
-        <Button Background="DarkSalmon" FontSize="18" Click="checkAnswer" Name="ans4" Width="200" Height="50" Content="Answer 4" Tag="0" Canvas.Left="453" Canvas.Top="469"/>
+        <Button Background="#DDF5F4" BorderThickness="0" FontSize="18" Click="checkAnswer" Name="ans1" Width="200" Height="50" Content="Answer 1" Tag="0" Canvas.Left="116" Canvas.Top="388"/>
+        <Button Background="#DDF5F4" BorderThickness="0" FontSize="18" Click="checkAnswer" Name="ans2" Width="200" Height="50" Content="Answer 2" Tag="0" Canvas.Left="116" Canvas.Top="469"/>
+        <Button Background="#DDF5F4" BorderThickness="0" FontSize="18" Click="checkAnswer" Name="ans3" Width="200" Height="50" Content="Answer 3" Tag="0" Canvas.Left="453" Canvas.Top="388"/>
+        <Button Background="#DDF5F4" BorderThickness="0" FontSize="18" Click="checkAnswer" Name="ans4" Width="200" Height="50" Content="Answer 4" Tag="0" Canvas.Left="453" Canvas.Top="469"/>
 
 
 
