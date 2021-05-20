@@ -85,7 +85,7 @@ namespace slut_projekt_quiz
             foreach (var x in MyCanvas.Children.OfType<Button>())
             {
                 x.Tag = "0";
-                x.Background = Brushes.DarkSalmon;
+                x.Background = Brushes.LightCyan;
             }
 
             switch (i)
