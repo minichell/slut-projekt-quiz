@@ -14,3 +14,5 @@ C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-
 C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\slut-projekt-quiz.pdb
 C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\WindowGame.g.cs
 C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\WindowGame.baml
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\EndWindow.g.cs
+C:\Users\Dornamichell.dadela\Documents\slut-projekt-quiz\slut-projekt-quiz\slut-projekt-quiz\obj\Debug\EndWindow.baml

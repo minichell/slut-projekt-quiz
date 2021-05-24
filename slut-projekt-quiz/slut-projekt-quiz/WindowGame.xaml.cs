@@ -19,87 +19,106 @@ namespace slut_projekt_quiz
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class WindowGame : Window
+    public partial class WindowGame : Window //Klassen är spelets funktionalitet
     {
-  
-       
+
+        //En lista på 10 frågor och man ser numrerna som kommer blanda detta inuti startspelfunktionen
         List<int> questionNumbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-        int qNum = 0;
-  
-        int i;
 
+        //qNum som styr vilken fråga som visas på skärmen, i och score
+        int qNum = 0;
+        int i;
         int score;
         public WindowGame()
         {
             InitializeComponent();
+
+            //Inuti funktionen kommer vi att köra startspelet (StartGame) och nästa frågefunktion (NextQuestion)
+
             StartGame();
             NextQuestion();
 
         }
 
         private void checkAnswer(object sender, RoutedEventArgs e)
+
         {
+            //Detta är händelse för checkAnswer, den här händelsen är länkad till knapparna på duken
+            //När någan av dess knapparna trycks kommer vi att köra denna händelsen
+
+
             Button senderButton = sender as Button;
+
+            //i If-systemet nedan kommer man kontrollera om den klickade på knappen har en 1 Tag inuti, om den gör det kommer vi lägga till 1 poäng
 
             if (senderButton.Tag.ToString() == "1")
             {
                 score++;
             }
 
+            //Om qNum är mindre än 0 kommer vi att återställa qNum-heltalet till 0
             if (qNum < 0)
             {
                 qNum = 0;
             }
             else
             {
+             //Om qNum är större än 0 kommer vi lägga 1 till qNum-heltalet
                 qNum++;
             }
 
+            //Den uppdaterar poängen varje gång du trycker på knapparna
             scoreText.Content = "Answered correctly" + score + "/" + questionNumbers.Count;
 
             NextQuestion();
 
         }
 
-        private void RestardGame() 
+        private void RestartGame() 
         {
-            score = 0;
-            qNum = -1;
-            i = 0;
-            StartGame();
+            //RestardGame är en funktion där spelet kommer att stängas och att EndWindow öppnas så att spelaren kan välja om att spela igen eller inte
+            this.Close(); //Sänger fönstret
+            EndWindow endWindow = new EndWindow(); //Öppnar EndWindow
+            endWindow.ShowDialog();
 
 
         }
 
         private void NextQuestion() 
-        { 
-            if(qNum < questionNumbers.Count)
+        {
+            //I den är funktionen kontrollerar den vilken fråga som ska visas nästa och den kommer att ha alla definitioner av frågor och svar
+
+            //i if-systemet nedan kommer det att kontrolleras om qNum är mindre än det totala antalet fårgor, då sätter på i till värdet på qNum
+
+
+            if (qNum < questionNumbers.Count)
             {
                 i = questionNumbers[qNum];
             }
             else
             {
-                RestardGame();
+                //Om vi har besvarat alla frågor så startas RestardGame
+                RestartGame();
             }
 
             foreach (var x in MyCanvas.Children.OfType<Button>())
             {
-                x.Tag = "0";
-                x.Background = Brushes.LightCyan;
+                x.Tag = "0"; //Nya knappar ska ha Tags tillbaks till 0
+                x.Background = Brushes.LightCyan; //Sätter knapparnas färger till Lightcyan
             }
 
             switch (i)
             {
                 case 1:
-                    txtQuestion.Text = "Who is the main character in the Moana movie";
+                    txtQuestion.Text = "Who is the main character in the Moana movie"; //Detta är frågan till fråge quizen
 
-                    ans1.Content = "Tamatoa";
+                    ans1.Content = "Tamatoa"; //Var och en av knapparna kan ha sina egna svar i det här spelet.
                     ans2.Content = "Moana";
                     ans3.Content = "Hei Hei";
                     ans4.Content = "Maui";
 
-                    ans2.Tag = "1";
+                    ans2.Tag = "1"; //Här berättar vi för programmet vilket av alternativet är korrekta.
 
                     qImage.Source = new BitmapImage(new Uri("pack://application:,,,/images/1.jpg"));
 
@@ -236,10 +255,15 @@ namespace slut_projekt_quiz
 
         private void StartGame()
         {
+            //Detta är startspelfunktionen
+            //inuti denna funktionen slumpar man ifrågasättningslista och sparar den tillbaks i listan
+
             var randomList = questionNumbers.OrderBy(a => Guid.NewGuid()).ToList();
 
             questionNumbers = randomList;
             questionOrder.Content = null;
+
+            //En foor-loop som lägger till värdet som visar den randomiserade listan till skärmen så att vi kan se hur randomiserats
 
             for (int i = 0; i < questionNumbers.Count; i++ )
             {

@@ -17,20 +17,22 @@ namespace slut_projekt_quiz
     /// <summary>
     /// Interaction logic for start.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window //Klassen är en funktionalitet där man kan välja om man vill köra spelet eller inte
     {
         public MainWindow()
         {
             InitializeComponent();
+       
         }
 
-        private void Yes(object sender, RoutedEventArgs e)
+        private void Yes(object sender, RoutedEventArgs e) //När spelaren trycker på button "Yes" ska det öppnas WindowGame fönstret där spelet körs
         {
+        
             WindowGame windowGame = new WindowGame();
             windowGame.ShowDialog();
         }
 
-        private void No(object sender, RoutedEventArgs e)
+        private void No(object sender, RoutedEventArgs e) //När spelaren trycker på button "No" stängs fönstret samt programmet
         {
             this.Close();
         }
