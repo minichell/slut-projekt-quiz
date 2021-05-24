@@ -9,10 +9,9 @@
     <Canvas Name="MyCanvas" Background="White">
 
         <Label Name="questionOrder"  FontFamily="Century Gothic" FontSize="18" Canvas.Left="354">Congrats !!</Label>
-        <Label Name="scoreText" FontFamily="Century Gothic" FontSize="18" Canvas.Left="428" Canvas.Top="334">score: 1/10</Label>
         <Image Name="qImage" Source = "images/1.jpg" Stretch="Uniform" Height="286" Width="572" Canvas.Left="102" Canvas.Top="39" />
-        <TextBlock Name="txtQuestion" TextAlignment="Center" Padding="3" FontFamily="Century Gothic" FontSize="20" Width="235" TextWrapping="Wrap" Canvas.Left="188" Canvas.Top="334">
-            You got:
+        <TextBlock Name="txtQuestion" TextAlignment="Center" Padding="3" FontFamily="Century Gothic" FontSize="20" Width="435" TextWrapping="Wrap" Canvas.Left="188" Canvas.Top="334">
+            Do you want to play again?
         </TextBlock>
 
         <Button Background= "LightCyan"  FontFamily="Century Gothic" BorderThickness="0" FontSize="18" Click="PlayAgain" Name="answer_1" Width="200" Height="50" Content="Play Again !" Tag="0" Canvas.Left="116" Canvas.Top="388"/>
